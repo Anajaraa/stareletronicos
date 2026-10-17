@@ -145,7 +145,12 @@ const catalogo = [
     categoria: 'Relógios', icone: '⌚',
     produtos: [
       { nome: 'Relógio de Parede', desc: 'Vários modelos.', img: 'imagens/Relógio de Parede.jpg' },
-      { nome: 'Relógio de Pulso', desc: 'Vários modelos.' }
+      { nome: 'Relógio de Pulso', desc: 'Vários modelos.', img: 'imagens/relogio de pu1.jpg' },
+      { nome: 'Relógio Esportivo', desc: 'Pulseira de silicone, com calendário.', img: 'imagens/relogio de pu2.jpg' },
+      { nome: 'Relógio Social Prata', desc: 'Pulseira de aço, com calendário.', img: 'imagens/relogio de pu3.jpg' },
+      { nome: 'Relógio Digital LED Quadrado', desc: 'Pulseira de silicone.', img: 'imagens/relogio de pu4.jpg' },
+      { nome: 'Relógio Feminino Dourado', desc: 'Pulseira delicada com strass.', img: 'imagens/relogio de pu5.jpg' },
+      { nome: 'Relógio Digital LED Pulseira', desc: 'Leve e confortável.', img: 'imagens/relogio de pu6.jpg' }
     ]
   }
 ];
