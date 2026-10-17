@@ -99,7 +99,7 @@ const catalogo = [
   {
     categoria: 'Som e Rádio', icone: '🔊',
     produtos: [
-      { nome: 'Rádios', desc: 'Vários tamanhos.' }
+      { nome: 'Rádios', desc: 'Vários tamanhos.', img: 'imagens/rádios vários tamanhos.jpg' }
     ]
   },
   {
@@ -116,8 +116,8 @@ const catalogo = [
   {
     categoria: 'Games', icone: '🎮',
     produtos: [
-      { nome: 'Controle PlayStation 2', desc: 'Compatível com PS2.' },
-      { nome: 'Controle PlayStation 3', desc: 'Compatível com PS3.' },
+      { nome: 'Controle PlayStation 2', desc: 'Compatível com PS2.', img: 'imagens/contole play II.jpg' },
+      { nome: 'Controle PlayStation 3', desc: 'Compatível com PS3.', img: 'imagens/controle play lll.jpg' },
       { nome: 'Controle PlayStation 4', desc: 'Compatível com PS4.' }
     ]
   },
@@ -127,10 +127,10 @@ const catalogo = [
       { nome: 'Pendrive 8GB', desc: 'Leve seus arquivos com você.', img: 'imagens/pendrive todos os tamanhos.jpg' },
       { nome: 'Pendrive 16GB', desc: 'Leve seus arquivos com você.', img: 'imagens/pendrive todos os tamanhos.jpg' },
       { nome: 'Pendrive 32GB', desc: 'Leve seus arquivos com você.', img: 'imagens/pendrive todos os tamanhos.jpg' },
-      { nome: 'Cartão de Memória 8GB', desc: 'Para celular, câmera e mais.' },
-      { nome: 'Cartão de Memória 16GB', desc: 'Para celular, câmera e mais.' },
-      { nome: 'Cartão de Memória 32GB', desc: 'Para celular, câmera e mais.' },
-      { nome: 'Cartão de Memória 64GB', desc: 'Para celular, câmera e mais.' }
+      { nome: 'Cartão de Memória 8GB', desc: 'Para celular, câmera e mais.', img: 'imagens/cartão de memória 8giga.jpg' },
+      { nome: 'Cartão de Memória 16GB', desc: 'Para celular, câmera e mais.', img: 'imagens/cartão de memória 16 giga.jpg' },
+      { nome: 'Cartão de Memória 32GB', desc: 'Para celular, câmera e mais.', img: 'imagens/cartão memória 32 giga.jpg' },
+      { nome: 'Cartão de Memória 64GB', desc: 'Para celular, câmera e mais.', img: 'imagens/cartão memória 64 giga.jpg' }
     ]
   },
   {
