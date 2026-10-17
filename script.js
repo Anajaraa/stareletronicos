@@ -119,7 +119,7 @@ const catalogo = [
     produtos: [
       { nome: 'Controle PlayStation 2', desc: 'Compatível com PS2.', img: 'imagens/contole play II.jpg' },
       { nome: 'Controle PlayStation 3', desc: 'Compatível com PS3.', img: 'imagens/controle play lll.jpg' },
-      { nome: 'Controle PlayStation 4', desc: 'Compatível com PS4.' }
+      { nome: 'Controle PlayStation 4', desc: 'Compatível com PS4. Várias cores.', img: 'imagens/Controle ps4.jpg' }
     ]
   },
   {
