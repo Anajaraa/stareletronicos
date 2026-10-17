@@ -104,26 +104,32 @@ body {
   transition: transform 0.5s ease;
 }
 
+/* Imagem inteira (sem corte) à direita, texto à esquerda */
 .carousel-slide {
   min-width: 100%;
-  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .carousel-slide img {
+  order: 2;
   width: 100%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 16px;
+  height: 460px;
+  object-fit: contain;
+  background: #ffffff;
 }
 
 .carousel-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   padding: 2rem;
-  background: linear-gradient(transparent, rgba(0,0,0,0.9));
-  border-radius: 0 0 16px 16px;
 }
 
 .carousel-overlay h3 {
@@ -225,7 +231,7 @@ body {
   width: 100%;
   height: 200px;
   object-fit: contain;
-  background: #0a0a0a;
+  background: #ffffff;
 }
 
 .product-info {
@@ -273,6 +279,35 @@ body {
 .btn-buy:hover {
   background: var(--primary);
   color: var(--background);
+}
+
+/* ================= CATÁLOGO ================= */
+.catalog-subtitle {
+  text-align: center;
+  color: var(--muted-foreground);
+  margin: -1rem 0 2rem;
+}
+
+.catalog-category {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.product-icon {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  background: #0a0a0a;
+}
+
+.price-consult {
+  font-size: 1rem;
 }
 
 /* ================= FOOTER ================= */
@@ -337,8 +372,17 @@ footer {
     justify-content: center;
   }
 
+  .carousel-slide {
+    grid-template-columns: 1fr;
+  }
+
   .carousel-slide img {
-    height: 250px;
+    order: 0;
+    height: 300px;
+  }
+
+  .carousel-overlay {
+    padding: 1.25rem;
   }
 
   .carousel-overlay h3 {
