@@ -137,8 +137,8 @@ const catalogo = [
   {
     categoria: 'Pilhas', icone: '🔋',
     produtos: [
-      { nome: 'Pilha Recarregável', desc: 'Economia e sustentabilidade.' },
-      { nome: 'Pilha Palito Recarregável', desc: 'Tamanho AAA.' }
+      { nome: 'Pilha Recarregável', desc: 'Tamanho AA. Economia e sustentabilidade.', img: 'imagens/Pilha recarregavel AA.jpg' },
+      { nome: 'Pilha Palito Recarregável', desc: 'Tamanho AAA.', img: 'imagens/Pilha recarregavel AAA.jpg' }
     ]
   },
   {
