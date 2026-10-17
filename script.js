@@ -107,8 +107,9 @@ const catalogo = [
     produtos: [
       { nome: 'Mouse com Fio', desc: 'Preciso e confiável.', img: 'imagens/mouse com fio.jpg' },
       { nome: 'Mouse sem Fio', desc: 'Liberdade de movimento.', img: 'imagens/mouse sem fio.jpg' },
-      { nome: 'Teclado com Fio para Notebook', desc: 'Conexão USB.' },
-      { nome: 'Teclado sem Fio', desc: 'Prático e sem cabos.' },
+      { nome: 'Teclado com Fio para Notebook', desc: 'Conexão USB.', img: 'imagens/Teclado com Fio para Notebook.jpg' },
+      { nome: 'Teclado sem Fio', desc: 'Prático e sem cabos.', img: 'imagens/Teclado sem Fio.jpg' },
+      { nome: 'Kit Teclado e Mouse sem Fio', desc: 'Conjunto completo, sem cabos.', img: 'imagens/Teclado e mouse sem fio.jpg' },
       { nome: 'Adaptador Bluetooth', desc: 'Adicione Bluetooth ao seu aparelho.', img: 'imagens/adaptador de bluetooth.jpg' },
       { nome: 'Cabo USB', desc: 'USB x USB.', img: 'imagens/cabo USB com usb.jpg' }
     ]
@@ -143,7 +144,7 @@ const catalogo = [
   {
     categoria: 'Relógios', icone: '⌚',
     produtos: [
-      { nome: 'Relógio de Parede', desc: 'Vários modelos.' },
+      { nome: 'Relógio de Parede', desc: 'Vários modelos.', img: 'imagens/Relógio de Parede.jpg' },
       { nome: 'Relógio de Pulso', desc: 'Vários modelos.' }
     ]
   }
